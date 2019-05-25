@@ -1,0 +1,12 @@
+Package: yasm-dbgsym
+Source: yasm
+Version: 1.3.0-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Sam Hocevar <sho@debian.org>
+Installed-Size: 1755
+Depends: yasm (= 1.3.0-2)
+Section: debug
+Priority: optional
+Description: debug symbols for yasm
+Build-Ids: 9ad37cb8e6492fff79d8ebc44cd72ceaa43af5bd c17dd1084b379e68a10fcaa3070eca6fa150dde8

@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Sun, 03 May 2015 22:15:47 +0200
+Source: yasm
+Binary: yasm
+Built-For-Profiles: nobiarch nocheck nodoc
+Architecture: amd64
+Version: 1.3.0-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Sam Hocevar <sho@debian.org>
+Changed-By: Sam Hocevar <sho@debian.org>
+Description:
+ yasm       - modular assembler with multiple syntaxes support
+Changes:
+ yasm (1.3.0-2) unstable; urgency=medium
+ .
+   * 100_ytasm_parsing_error.diff: fix more bugs in argument parsing.
+Checksums-Sha1:
+ a8a9b03e2f8bc51f01a90e1dd96018541d892790 1644156 yasm-dbgsym_1.3.0-2_amd64.deb
+ d511179b2c0fe5e1c40bcc27e713e5d82b5b74c5 6061 yasm_1.3.0-2_amd64.buildinfo
+ 188256c330846783b00d20ccaf4e639fcf4dbdaf 973760 yasm_1.3.0-2_amd64.deb
+Checksums-Sha256:
+ bb239fc0a013f07838227108ee5f68d14e5b95150a8a94d8b23ac21d0e797b05 1644156 yasm-dbgsym_1.3.0-2_amd64.deb
+ a0c9edc506ed05d1453e8982f9b7ccd2601e8c17ca60a7e8954558e1839f41b7 6061 yasm_1.3.0-2_amd64.buildinfo
+ d48338eda4b2b178c45c611df3306341caab62e6bcf5509fbc32cf56bfcb7623 973760 yasm_1.3.0-2_amd64.deb
+Files:
+ 2a8170de7a3f35060c9ce24913bd4810 1644156 debug optional yasm-dbgsym_1.3.0-2_amd64.deb
+ 2e1b226936233074ea63c73be92171b1 6061 devel optional yasm_1.3.0-2_amd64.buildinfo
+ 182729828e784e22c76ea4f946fa01ae 973760 devel optional yasm_1.3.0-2_amd64.deb
